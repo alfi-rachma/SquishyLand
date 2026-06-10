@@ -259,6 +259,11 @@ button {
     float: right;
 }
 
+.navbar-brand img {
+    width: 180px;
+    height: auto;
+}
+
 .navbar {
     padding: 15px 0px;
 }
