@@ -23,8 +23,7 @@
                 <input type="password" />
             </label>
             <p class="forgot-pass">Forgot password?</p>
-            <button type="button" class="submit" onclick="window.location.href='../../index.html'">Sign In</button>
-         
+            <button type="button" class="submit" id="signinBtn">Sign In</button>
         </div>
         <div class="sub-cont">
             <div class="img">
@@ -66,6 +65,16 @@
             document.querySelector('.cont').classList.toggle('s--signup');
         });
     </script>
+
+    <script>
+document.getElementById("signinBtn").addEventListener("click", function () {
+
+    localStorage.setItem("isLoggedIn", "true");
+
+    window.location.href = "../../index.html";
+
+});
+</script>
                       
   </body>
   
