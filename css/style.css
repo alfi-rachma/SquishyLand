@@ -255,8 +255,13 @@ button {
 }
 
 .navbar-brand {
-    margin: 0px;
-    float: right;
+    margin: 0;
+    float: left;
+}
+
+.navbar-brand img {
+    width: 140px;
+    height: auto;
 }
 
 .navbar {
